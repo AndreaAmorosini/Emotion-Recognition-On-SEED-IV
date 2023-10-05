@@ -1,0 +1,17 @@
+autokeras==1.0.19
+keras_tuner==1.3.5
+matplotlib==3.7.1
+neptune==1.3.1
+numpy==1.23.5
+optuna==3.2.0
+pandas==1.5.3
+scikit_learn==1.0.2
+scikit_plot==0.3.7
+scipy==1.7.3
+
+Per quanto riguarda tensorflow se si vuole usare la versione per macOs con processori silicon
+e' consigliato seguire la seguente guida : https://developer.apple.com/metal/tensorflow-plugin/
+Nota Bene : era presente un bug in conda per il quale non andava ad installare l'ultima versione tensorflow_macos
+andando in conflitto con gli altri componenti tensorflow per silicon e costringendo l'installazione manuale
+
+tensorflow_macos==2.12.0
